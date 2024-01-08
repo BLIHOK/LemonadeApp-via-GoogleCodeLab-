@@ -81,7 +81,7 @@ class LemonadeTests : BaseTest() {
         // Click image to progress state
         onView(withId(R.id.image_lemon_state)).perform(longClick())
         onView(withId(com.google.android.material.R.id.snackbar_text))
-            .check(matches(withText("Squeeze count: 1, keep squeezing!")))
+            .check(matches(withText("Squeeze count: 2, keep squeezing!")))
     }
 
     /**
